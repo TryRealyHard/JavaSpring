@@ -21,7 +21,7 @@ public class SpringSecurityLdapApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSecurityLdapApplication.class, args);
-		List<String> osebList = new getAllPersonNames();
+		List<String> osebList = new getAllPersonNames(); /* ??? */
 		System.out.println(Arrays.toString(osebList.toArray()));
 	}
 
